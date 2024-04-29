@@ -16,5 +16,5 @@ how to use:
 9. if npm run dev show error copy all .js and project structure to create new project. project setup create-next-app@latest >> App Router: NO
 10. npm install @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components firebase @mui/icons-material
 
-
+***in dashboard.js , around line 187 remove //Fallback...
 
