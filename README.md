@@ -1,3 +1,8 @@
+this project is to show how CRUD operations work with firebase as database using authentication from database for admin to login and use admin dashboard to do CRUD operations 
+
+project theme is formaula 1 fan site with teams and their drivers
+
+how to use:
 1. create firebase project
 2. create web project(html icon on console)
 3. copy const firebaseConfig = {...}; and replace it in '../utils/firebaseConfig.js
