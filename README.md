@@ -1,6 +1,8 @@
-this project is to show how CRUD operations work with firebase as database using authentication from database for admin to login and use admin dashboard to do CRUD operations 
+this project is to show how CRUD operations work with firebase as database using authentication login from firebase for admin to login and use admin dashboard to do CRUD operations 
 
-project theme is formaula 1 fan site with teams and their drivers
+project theme is formaula 1 fan site with teams and their drivers showing their info and bio 
+
+keep in mind that a team can have only two drivers for firestore creation
 
 how to use:
 1. create firebase project
