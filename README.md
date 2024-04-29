@@ -1,40 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+this project is to show how CRUD operations work using nextjs with firebase>firestore as database using authentication login from firebase for admin to login and use admin dashboard to do CRUD operations 
 
-## Getting Started
+project theme is formaula 1 fan site with teams and their drivers showing their info and bio 
 
-First, run the development server:
+keep in mind that a team can have only two drivers for firestore creation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+how to use:
+1. create firebase project
+2. create web project(html icon on console)
+3. copy const firebaseConfig = {...}; and replace it in '../utils/firebaseConfig.js
+4. in firebase console go to Authentication setup enable email/password login then add user with your own email and password
+5. create database:
+6. go to firestore database choose production mode
+7. change 'false' to 'true' in Rules
+8. (read f1.json first..scroll down to see drivers) start collection: collection id: 'teams' add fields like f1.json then start collection inside a team collection id: 'drivers' and do the same. make sure to correctly put all the fields and put atleast one object for teams and drivers collection
+9. if npm run dev show error copy all .js and project structure to create new project. project setup create-next-app@latest >> App Router: NO
+10. npm install @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components firebase @mui/icons-material
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+***in dashboard.js , around line 187 remove //Fallback...
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
