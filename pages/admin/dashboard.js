@@ -183,8 +183,7 @@ const AdminDashboard = () => {
                   <Avatar
                     src={driver.image_url || "/default-driver.jpg"}
                     alt={driver.name}
-                  />{" "}
-                  // Fallback to a default image
+                  />
                 </ListItemAvatar>
                 <ListItemText primary={driver.name} secondary={driver.bio} />
                 <Button onClick={() => handleOpenDriverDialog(driver, team.id)}>
