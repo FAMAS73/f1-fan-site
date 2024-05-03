@@ -68,3 +68,4 @@ const TeamsPage = () => {
 };
 
 export default TeamsPage;
+//condition ? true : false;
