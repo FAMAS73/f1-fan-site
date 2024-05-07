@@ -17,13 +17,13 @@ import {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "",
+  apiKey: "AIzaSyDexaX8hDkpB4P41g_3KpLrRo5i6WneOWw",
   authDomain: "f1-fan-site-next-js.firebaseapp.com",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: "",
+  projectId: "f1-fan-site-next-js",
+  storageBucket: "f1-fan-site-next-js.appspot.com",
+  messagingSenderId: "57033051103",
+  appId: "1:57033051103:web:f0637e743fd7c91502d26a",
+  measurementId: "G-1XZG86VHPB",
 };
 
 

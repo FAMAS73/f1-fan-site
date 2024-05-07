@@ -138,7 +138,7 @@ const AdminDashboard = () => {
   };
 
   const handleLogout = async () => {
-    await signOut(auth);
+    await signOut(auth);//getAuth() is the authentication
     router.push("/");
   };
 
@@ -202,6 +202,7 @@ const AdminDashboard = () => {
           </CardContent>
         </Card>
       ))}
+
       <Dialog open={openTeamDialog} onClose={handleCloseDialog}>
         <DialogTitle>{isEditMode ? "Edit Team" : "Add New Team"}</DialogTitle>
         <DialogContent>
@@ -247,7 +248,7 @@ const AdminDashboard = () => {
           <Button onClick={handleSubmitTeam}>Submit</Button>
         </DialogActions>
       </Dialog>
-      
+
       <Dialog open={openDriverDialog} onClose={handleCloseDialog}>
         <DialogTitle>
           {isEditMode ? "Edit Driver" : "Add New Driver"}

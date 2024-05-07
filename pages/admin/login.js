@@ -8,7 +8,7 @@ const AdminLogin = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
-  const auth = getAuth();
+  const auth = getAuth();//authentication
 
   const handleLogin = async (e) => {
     e.preventDefault();

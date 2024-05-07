@@ -57,16 +57,18 @@ export default function TeamPage() {
     <Container>
       <AppBar position="static">
         <Toolbar>
-           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
-            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,w_195,q_auto/etc/designs/fom-website/images/f1_logo" alt="Logo" style={{ height: 50, marginRight: 10 }} />
-            </Box>
+          <Box sx={{ flexGrow: 1, display: "flex", alignItems: "center" }}>
+            <img
+              src="https://media.formula1.com/image/upload/f_auto,c_limit,w_195,q_auto/etc/designs/fom-website/images/f1_logo"
+              alt="Logo"
+              style={{ height: 50, marginRight: 10 }}
+            />
+          </Box>
           <Typography
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, cursor: "pointer" }}
-          >
-            
-          </Typography>
+          ></Typography>
           <IconButton
             size="large"
             edge="start"
@@ -147,7 +149,7 @@ export default function TeamPage() {
               </Typography>
               <Typography variant="body2">Base: {team.base}</Typography>
               <Button variant="contained" sx={{ mt: 2 }}>
-                <Link href={`/teams/${team.id}`}>See Drivers</Link>
+                <Link href={`/teams/${team.id}`}>See Dri</Link>
               </Button>
             </CardContent>
           </Card>
